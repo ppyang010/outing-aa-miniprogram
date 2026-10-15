@@ -1,0 +1,31 @@
+# 本地规划与个人编辑器记录
+.planning/
+.DS_Store
+.idea/
+.vscode/
+
+# 依赖、构建与测试产物
+node_modules/
+dist/
+coverage/
+*.log
+
+# 认证信息、环境变量与本机配置
+.env
+.env.*
+!.env.example
+project.private.config.json
+*.local
+*.local.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+secrets/
+
+# 运行数据与备份
+backups/
+exports/
+tmp/
